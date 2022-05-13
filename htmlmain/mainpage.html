@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/nav.css" />
+    <style>
+      #search-background {
+        height: 500px;
+      }
+      #search {
+        width: 1020px;
+        margin: 100px auto 0;
+      }
+
+      #search ul {
+        display: flex;
+      }
+      #search ul li input {
+        width: 680px;
+        height: 40px;
+        background-color: white;
+        border: none;
+        border-radius: 10% 0 0 10%;
+      }
+      #search ul li:nth-child(2) {
+        width: 70px;
+        height: 40px;
+        background-color: green;
+        margin-right: 20px;
+        border-radius: 0 10% 10% 0;
+        line-height: 40px;
+        text-align: center;
+      }
+      #search ul li:nth-child(3) {
+        width: 250px;
+        height: 40px;
+        background-color: white;
+        border-radius: 10%;
+        text-align: center;
+        line-height: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <nav>
+          <div id="loginwrap">
+            <ul id="login">
+              <li><a href="#">회원가입</a></li>
+              <li><a href="#">로그인</a></li>
+            </ul>
+          </div>
+          <ul id="menu">
+            <li>
+              <a href="#"
+                ><img id="logo" name="home" src="../img/Innisfree-logo.svg.png"
+              /></a>
+            </li>
+            <li><a href="#">리콜정보</a></li>
+            <li><a href="#">심사정보</a></li>
+            <li><a href="#">커뮤니티</a></li>
+            <li><a href="#">마이페이지</a></li>
+          </ul>
+        </nav>
+        <div id="search-background"><img href="../img/cos1920_2.jpg" /></div>
+        <div id="search">
+          <ul>
+            <li>
+              <input
+                type="text"
+                name="search"
+                placeholder="어떤 정보를 찾으시나요?"
+              />
+            </li>
+            <li>돋보기</li>
+            <li>리콜정보 랜덤</li>
+          </ul>
+        </div>
+      </header>
+      <section>
+        <article id="recall">
+          <h1>리콜 제품 리스트</h1>
+        </article>
+        <article></article>
+        <article></article>
+      </section>
+      <footer>
+        <address>
+          문의사항은 깃허브로
+          <a href="https://github.com/GOGOYS/recallpage"
+            >https://github.com/GOGOYS/recallpage</a
+          >
+        </address>
+      </footer>
+    </div>
+  </body>
+</html>

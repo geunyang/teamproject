@@ -1,0 +1,7 @@
+# 화장품 리콜페이지 팀프로젝트
+
+## 220509 리콜제품리스트 ui 구현
+
+- footer background width가 header의 width와 다름 수정 필요//완료
+- input 창 클릭시 button 과 틈새 벌어짐 수정 필요//outline none 처리
+- paging 에 커서 올리고 이동하면 울렁거림 수정 필요// box-sizing 처리
