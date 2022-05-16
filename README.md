@@ -10,4 +10,4 @@
 - nav hover 길이 오류// 수정
 - 스크롤시 footer 오류// 수정
 - 로고에 hover 제거
-- h1 높이 margin 대신 section margin 으로 조절
+- h1 높이 margin 대신 section margin 으로 조절// 완료
