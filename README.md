@@ -7,5 +7,7 @@
 - paging 에 커서 올리고 이동하면 울렁거림 수정 필요// box-sizing 처리
 - css 분리// 완료
 - 유지보수 용이하게 div 추가 및 class 지정// 완료
-- nav hover 길이 오류// 임시수정
-- 스크롤시 footer 오류
+- nav hover 길이 오류// 수정
+- 스크롤시 footer 오류// 수정
+- 로고에 hover 제거
+- h1 높이 margin 대신 section margin 으로 조절

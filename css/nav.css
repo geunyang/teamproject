@@ -5,16 +5,18 @@
   text-decoration: none;
 }
 body {
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
 }
 
-#wrap {
+header {
   width: 100vw;
   height: 10vh;
   background-color: rgb(34, 34, 34);
 }
-header {
+header nav {
   width: 1280px;
   margin: 0 auto;
 }
