@@ -11,14 +11,14 @@ section h1 {
   margin-bottom: 20px;
 }
 .details h3 {
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 20px;
 }
 .details table {
   border-collapse: collapse;
   width: 1280px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 80px;
   border-top: 3px solid black;
 }
 .details th {
