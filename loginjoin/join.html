@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="../css/nav.css" />
+    <style>
+      div.mainbox {
+        width: 1280px;
+        margin: 0 auto;
+      }
+      section {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        margin-top: 100px;
+      }
+      section h1 {
+        margin-bottom: 40px;
+        text-align: center;
+        padding: 20px;
+        border-bottom: 1px solid gray;
+      }
+      article {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      fieldset {
+        border: 1px solid gray;
+        padding: 5px;
+        border-radius: 10px;
+        width: 30vw;
+        margin: 0 auto;
+      }
+
+      label,
+      input {
+        display: inline-block;
+        padding: 5px;
+        margin: 5px 3px;
+      }
+
+      label {
+        width: 10vw;
+        text-align: right;
+      }
+      input {
+        width: 10vw;
+        border-radius: 5px;
+        outline: none;
+        border: solid 1px rgba(0, 0, 0, 0.3);
+      }
+      fieldset #check {
+        width: 5rem;
+        padding: 3px 0;
+        font-size: 13px;
+        color: white;
+        background-color: gray;
+        border: none;
+        border-radius: 5px;
+      }
+      select {
+        font-size: 13px;
+      }
+      .btnbox {
+        text-align: center;
+        margin: 10px 0;
+        outline: 0;
+      }
+      .btn {
+        display: inline-block;
+        width: 90%;
+        padding: 12px 16px;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        background-color: gray;
+        border: 0;
+        border-radius: 10px;
+      }
+      .gotologin {
+        margin-top: 30px;
+        text-align: center;
+      }
+      .gotologin a {
+        color: inherit;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script
+      scr="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+    ></script>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="loginwrap">
+          <ul id="login">
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">로그인</a></li>
+            <li>
+              <a href="#"
+                ><i onclick="ShowBell()" class="fa-solid fa-bell"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div id="bell-watch">
+          <div id="bell-see">
+            <a href="#"><i onclick="HideBell()" class="fa-solid fa-x"></i></a>
+            <div class="bell-box">
+              <a href="#">이것은 리콜정보에 대한 알림</a>
+            </div>
+            <div class="bell-box">
+              <a href="#">어느 화장품이 리콜을 했을까요~</a>
+            </div>
+            <div class="bell-box">
+              <a href="#">이것은 리콜정보에 대한 알림</a>
+            </div>
+            <div class="bell-box">
+              <a href="#">이것은 리콜정보에 대한 알림</a>
+            </div>
+          </div>
+        </div>
+        <ul id="menu">
+          <li>
+            <a href="#"
+              ><img id="logo" src="../img/Innisfree-logo.svg.png"
+            /></a>
+          </li>
+          <li><a href="#">리콜정보</a></li>
+          <li><a href="#">화장품심사정보</a></li>
+          <li><a href="#">커뮤니티</a></li>
+          <li><a href="#">마이페이지</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="mainbox">
+        <h1>회원가입</h1>
+        <article class="join">
+          <form method="POST">
+            <fieldset>
+              <div>
+                <label>아이디</label>
+                <input type="text" />
+                <button type="button" id="check">중복확인</button>
+              </div>
+              <div>
+                <label>이름</label>
+
+                <input type="text" />
+                <button type="button" id="check">중복확인</button>
+              </div>
+              <div>
+                <label>비밀번호</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label>비밀번호확인</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label>이메일</label>
+                <input type="text" />@
+                <select name="email">
+                  <option value="naver.com">네이버</option>
+                  <option value="gmail.com">구글</option>
+                  <option value="daum.net">다음</option>
+                  <option selected>직접입력</option>
+                </select>
+              </div>
+              <div class="btnbox">
+                <button class="btn">회원가입</button>
+              </div>
+            </fieldset>
+          </form>
+          <div class="gotologin">
+            <p>
+              계정이 있으신가요? &gt; <a href="./login.html">로그인</a> 하러가기
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <address>
+        문의사항은 깃허브로
+        <a href="https://github.com/GOGOYS/recallpage"
+          >https://github.com/GOGOYS/recallpage</a
+        >
+      </address>
+    </footer>
+    <script text="text/javascript" src="../js/nav.js"></script>
+  </body>
+</html>

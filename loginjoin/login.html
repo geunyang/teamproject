@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="../css/nav.css" />
+    <style>
+      div.mainbox {
+        width: 1280px;
+        margin: 0 auto;
+      }
+      section {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        margin-top: 100px;
+      }
+      section h1 {
+        margin-bottom: 40px;
+        text-align: center;
+        padding: 20px;
+        border-bottom: 1px solid gray;
+      }
+      article {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      fieldset {
+        border: 1px solid gray;
+        padding: 5px;
+        border-radius: 10px;
+        width: 30vw;
+        margin: 0 auto;
+      }
+      #infoinput {
+        width: 28vw;
+        height: 5vh;
+        margin: 20px 15px;
+        padding: 8px;
+        border-radius: 10px;
+        border: solid 1px rgba(0, 0, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .fa-user {
+        font-size: 20px;
+        color: gray;
+      }
+      .fa-lock {
+        font-size: 20px;
+        color: gray;
+      }
+      #infoinput input {
+        width: 27vw;
+        height: 4vh;
+        margin: 20px 15px;
+        padding: 8px;
+        border: none;
+        outline: none;
+        font-size: inherit;
+      }
+      .btnbox {
+        text-align: center;
+        margin: 10px 0;
+        outline: 0;
+      }
+      .btn {
+        display: inline-block;
+        width: 90%;
+        padding: 12px 16px;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        background-color: gray;
+        border: 0;
+        border-radius: 10px;
+      }
+      .gotojoin {
+        margin-top: 30px;
+        text-align: center;
+      }
+      .gotojoin a {
+        color: inherit;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script
+      scr="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+    ></script>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="loginwrap">
+          <ul id="login">
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">로그인</a></li>
+            <li>
+              <a href="#"
+                ><i onclick="ShowBell()" class="fa-solid fa-bell"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div id="bell-watch">
+          <div id="bell-see">
+            <a href="#"><i onclick="HideBell()" class="fa-solid fa-x"></i></a>
+            <div class="bell-box">
+              <a href="#">이것은 리콜정보에 대한 알림</a>
+            </div>
+            <div class="bell-box">
+              <a href="#">어느 화장품이 리콜을 했을까요~</a>
+            </div>
+            <div class="bell-box">
+              <a href="#">이것은 리콜정보에 대한 알림</a>
+            </div>
+            <div class="bell-box">
+              <a href="#">이것은 리콜정보에 대한 알림</a>
+            </div>
+          </div>
+        </div>
+        <ul id="menu">
+          <li>
+            <a href="#"
+              ><img id="logo" src="../img/Innisfree-logo.svg.png"
+            /></a>
+          </li>
+          <li><a href="#">리콜정보</a></li>
+          <li><a href="#">화장품심사정보</a></li>
+          <li><a href="#">커뮤니티</a></li>
+          <li><a href="#">마이페이지</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="mainbox">
+        <h1>로그인</h1>
+        <article class="login">
+          <form method="POST">
+            <fieldset>
+              <div id="infoinput">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="아이디를 입력해주세요" />
+              </div>
+              <div id="infoinput">
+                <i class="fa-solid fa-lock"></i>
+                <input type="text" placeholder="비밀번호를 입력해주세요" />
+              </div>
+              <div class="btnbox">
+                <button class="btn">회원가입</button>
+              </div>
+            </fieldset>
+          </form>
+          <div class="gotojoin">
+            <p>
+              계정이 없으신가요? &gt;
+              <a href="./join.html">회원가입</a> 하러가기
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <address>
+        문의사항은 깃허브로
+        <a href="https://github.com/GOGOYS/recallpage"
+          >https://github.com/GOGOYS/recallpage</a
+        >
+      </address>
+    </footer>
+    <script text="text/javascript" src="../js/nav.js"></script>
+  </body>
+</html>
