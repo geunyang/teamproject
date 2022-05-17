@@ -12,6 +12,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+    <script
+      scr="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+    ></script>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
   </head>
   <body>
     <header>
@@ -20,7 +24,29 @@
           <ul id="login">
             <li><a href="#">회원가입</a></li>
             <li><a href="#">로그인</a></li>
+            <li>
+              <a href="#"
+                ><i onclick="ShowBell()" class="fa-solid fa-bell"></i
+              ></a>
+            </li>
           </ul>
+        </div>
+        <div id="bell-watch">
+          <div id="bell-see">
+            <a href="#"><i onclick="HideBell()" class="fa-solid fa-x"></i></a>
+            <div class="bell-box">
+              <a href="#">이것은 리콜정보에 대한 알림</a>
+            </div>
+            <div class="bell-box">
+              <a href="#">어느 화장품이 리콜을 했을까요~</a>
+            </div>
+            <div class="bell-box">
+              <a href="#">이것은 리콜정보에 대한 알림</a>
+            </div>
+            <div class="bell-box">
+              <a href="#">이것은 리콜정보에 대한 알림</a>
+            </div>
+          </div>
         </div>
         <ul id="menu">
           <li>
@@ -89,5 +115,6 @@
         >
       </address>
     </footer>
+    <script text="text/javascript" src="../js/nav.js"></script>
   </body>
 </html>

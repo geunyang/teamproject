@@ -12,6 +12,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+    <script
+      scr="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+    ></script>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
   </head>
   <body>
     <header>
@@ -20,7 +24,29 @@
           <ul id="login">
             <li><a href="#">회원가입</a></li>
             <li><a href="#">로그인</a></li>
+            <li>
+              <a href="#"
+                ><i onclick="ShowBell()" class="fa-solid fa-bell"></i
+              ></a>
+            </li>
           </ul>
+        </div>
+        <div id="bell-watch">
+          <div id="bell-see">
+            <a href="#"><i onclick="HideBell()" class="fa-solid fa-x"></i></a>
+            <div class="bell-box">
+              <a href="#">이것은 리콜정보에 대한 알림</a>
+            </div>
+            <div class="bell-box">
+              <a href="#">어느 화장품이 리콜을 했을까요~</a>
+            </div>
+            <div class="bell-box">
+              <a href="#">이것은 리콜정보에 대한 알림</a>
+            </div>
+            <div class="bell-box">
+              <a href="#">이것은 리콜정보에 대한 알림</a>
+            </div>
+          </div>
         </div>
         <ul id="menu">
           <li>
@@ -66,7 +92,11 @@
             <tbody>
               <tr>
                 <td>1</td>
-                <td><a href="./info.html">일리윤 울트라 리페어 로션</a></td>
+                <td>
+                  <a href="./recall_list_detail.html"
+                    >일리윤 울트라 리페어 로션</a
+                  >
+                </td>
                 <td>(주)아모레퍼시픽</td>
                 <td>2222.22.22</td>
                 <td>식품의약품안전처</td>
@@ -74,7 +104,7 @@
               <tr>
                 <td>2</td>
                 <td>
-                  <a href="./info.html"
+                  <a href="./recall_list_detail.html"
                     >리바이탈라이징수프림플러스너리싱앤하이드레이팅듀얼페이즈트리트먼트오일</a
                   >
                 </td>
@@ -84,7 +114,7 @@
               </tr>
               <tr>
                 <td>3</td>
-                <td><a href="./info.html">고원까마중비누</a></td>
+                <td><a href="./recall_list_detail.html">고원까마중비누</a></td>
                 <td>한얼</td>
                 <td>2222.22.22</td>
                 <td>식품의약품안전처</td>
@@ -92,7 +122,7 @@
               <tr>
                 <td>4</td>
                 <td>
-                  <a href="./info.html"
+                  <a href="./recall_list_detail.html"
                     >프렌비타스킨필터링마스크영양필터링캐비어비타비</a
                   >
                 </td>
@@ -103,7 +133,7 @@
               <tr>
                 <td>5</td>
                 <td>
-                  <a href="./info.html"
+                  <a href="./recall_list_detail.html"
                     >뉴트로지나쿨드라이스포츠선스크린브로드스펙트럼스프레이에스피에프50+피에이+++</a
                   >
                 </td>
@@ -113,7 +143,7 @@
               </tr>
               <tr>
                 <td>6</td>
-                <td><a href="./info.html">내츄럴헤나</a></td>
+                <td><a href="./recall_list_detail.html">내츄럴헤나</a></td>
                 <td>거화무역</td>
                 <td>2222.22.22</td>
                 <td>식품의약품안전처</td>
@@ -121,7 +151,7 @@
               <tr>
                 <td>7</td>
                 <td>
-                  <a href="./info.html"
+                  <a href="./recall_list_detail.html"
                     >닥터 심플스틱 티원 콜라겐 원헌드레드 프리미엄</a
                   >
                 </td>
@@ -132,7 +162,9 @@
               <tr>
                 <td>8</td>
                 <td>
-                  <a href="./info.html">달리프클로렐라베러루트헤어토닉</a>
+                  <a href="./recall_list_detail.html"
+                    >달리프클로렐라베러루트헤어토닉</a
+                  >
                 </td>
                 <td>달리프주식회사</td>
                 <td>2222.22.22</td>
@@ -141,7 +173,7 @@
               <tr>
                 <td>9</td>
                 <td>
-                  <a href="./info.html"
+                  <a href="./recall_list_detail.html"
                     >Go Glam 베이스 코트(보라, 파랑, 분홍, 민트)</a
                   >
                 </td>
@@ -151,7 +183,9 @@
               </tr>
               <tr>
                 <td>10</td>
-                <td><a href="./info.html">제주감귤오일미스트</a></td>
+                <td>
+                  <a href="./recall_list_detail.html">제주감귤오일미스트</a>
+                </td>
                 <td>(주)파라제주</td>
                 <td>2222.22.22</td>
                 <td>식품의약품안전처</td>
@@ -185,5 +219,6 @@
         >
       </address>
     </footer>
+    <script text="text/javascript" src="../js/nav.js"></script>
   </body>
 </html>
