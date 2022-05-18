@@ -18,10 +18,14 @@
         margin-top: 100px;
       }
       section h1 {
-        margin-bottom: 40px;
         text-align: center;
-        padding: 20px;
+        padding: 10px;
+      }
+      .line {
+        width: 30vw;
         border-bottom: 1px solid gray;
+        margin: 10px auto 30px;
+        padding: 0;
       }
       article {
         width: 80%;
@@ -61,6 +65,7 @@
         background-color: gray;
         border: none;
         border-radius: 5px;
+        cursor: pointer;
       }
       select {
         font-size: 13px;
@@ -80,6 +85,7 @@
         background-color: gray;
         border: 0;
         border-radius: 10px;
+        cursor: pointer;
       }
       .gotologin {
         margin-top: 30px;
@@ -103,8 +109,8 @@
       <nav>
         <div id="loginwrap">
           <ul id="login">
-            <li><a href="#">회원가입</a></li>
-            <li><a href="#">로그인</a></li>
+            <li><a href="../loginjoin/join.html">회원가입</a></li>
+            <li><a href="../loginjoin/login.html">로그인</a></li>
             <li>
               <a href="#"
                 ><i onclick="ShowBell()" class="fa-solid fa-bell"></i
@@ -144,7 +150,9 @@
     </header>
     <section>
       <div class="mainbox">
-        <h1>회원가입</h1>
+        <div class="line">
+          <h1>회원가입</h1>
+        </div>
         <article class="join">
           <form method="POST">
             <fieldset>
@@ -171,10 +179,11 @@
                 <label>이메일</label>
                 <input type="text" />@
                 <select name="email">
+                  <option selected value="callor.com">callor</option>
                   <option value="naver.com">네이버</option>
                   <option value="gmail.com">구글</option>
                   <option value="daum.net">다음</option>
-                  <option selected>직접입력</option>
+                  <option>직접입력</option>
                 </select>
               </div>
               <div class="btnbox">

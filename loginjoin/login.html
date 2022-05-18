@@ -18,10 +18,14 @@
         margin-top: 100px;
       }
       section h1 {
-        margin-bottom: 40px;
         text-align: center;
-        padding: 20px;
+        padding: 10px;
+      }
+      .line {
+        width: 30vw;
         border-bottom: 1px solid gray;
+        margin: 10px auto 30px;
+        padding: 0;
       }
       article {
         width: 80%;
@@ -35,7 +39,7 @@
         width: 30vw;
         margin: 0 auto;
       }
-      #infoinput {
+      .infoinput {
         width: 28vw;
         height: 5vh;
         margin: 20px 15px;
@@ -45,6 +49,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        min-width: 20vw;
       }
       .fa-user {
         font-size: 20px;
@@ -54,7 +59,7 @@
         font-size: 20px;
         color: gray;
       }
-      #infoinput input {
+      .infoinput input {
         width: 27vw;
         height: 4vh;
         margin: 20px 15px;
@@ -78,6 +83,7 @@
         background-color: gray;
         border: 0;
         border-radius: 10px;
+        cursor: pointer;
       }
       .gotojoin {
         margin-top: 30px;
@@ -101,8 +107,8 @@
       <nav>
         <div id="loginwrap">
           <ul id="login">
-            <li><a href="#">회원가입</a></li>
-            <li><a href="#">로그인</a></li>
+            <li><a href="../loginjoin/join.html">회원가입</a></li>
+            <li><a href="../loginjoin/login.html">로그인</a></li>
             <li>
               <a href="#"
                 ><i onclick="ShowBell()" class="fa-solid fa-bell"></i
@@ -142,20 +148,22 @@
     </header>
     <section>
       <div class="mainbox">
-        <h1>로그인</h1>
+        <div class="line">
+          <h1>로그인</h1>
+        </div>
         <article class="login">
           <form method="POST">
             <fieldset>
-              <div id="infoinput">
+              <div class="infoinput">
                 <i class="fa-solid fa-user"></i>
                 <input type="text" placeholder="아이디를 입력해주세요" />
               </div>
-              <div id="infoinput">
+              <div class="infoinput">
                 <i class="fa-solid fa-lock"></i>
                 <input type="text" placeholder="비밀번호를 입력해주세요" />
               </div>
               <div class="btnbox">
-                <button class="btn">회원가입</button>
+                <button class="btn">로그인</button>
               </div>
             </fieldset>
           </form>
