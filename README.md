@@ -9,8 +9,10 @@
 - 유지보수 용이하게 div 추가 및 class 지정// 완료
 - nav hover 길이 오류// 수정
 - 스크롤시 footer 오류// 수정
-- 로고에 hover 제거
 - h1 높이 margin 대신 section margin 으로 조절// 완료
 - join, login 페이지 추가// 완료
 - join 페이지 input 창 크기 문제// 완료
-- 로고 색 맞춰서 요소 색상변경
+- 로고 색 맞춰서 요소 색상변경// 완료
+- 로고에 hover 제거
+- 가로 스크롤 오류(info_list, recall_list, recall_list_detail)
+- NEW! 파일 병합

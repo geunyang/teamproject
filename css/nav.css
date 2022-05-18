@@ -76,9 +76,9 @@ header nav {
   transform: scaleX(1);
 }
 #logo {
-  width: 160px;
+  padding-top: 5px;
+  width: 130px;
 }
-
 footer {
   position: relative;
   left: 0;

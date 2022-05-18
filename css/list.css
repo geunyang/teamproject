@@ -27,13 +27,13 @@ section h1 {
   position: absolute;
   width: 70px;
   height: 50px;
-  background-color: rgb(34, 34, 34);
+  background-color: rgba(118, 201, 65);
   border-style: none;
   border-radius: 0 10px 10px 0;
 }
 
 .post-list p {
-  margin-top: 80px;
+  margin-top: 70px;
   margin-bottom: 10px;
 }
 .post-list a {
@@ -43,13 +43,14 @@ section h1 {
   border-collapse: collapse;
   width: 1280px;
   margin-top: 20px;
+  font-size: 14px;
 }
 .post-list th {
-  background-color: #eee;
+  background-color: rgba(118, 201, 65, 0.1);
   padding: 12px;
 }
 .post-list td {
-  padding: 5px;
+  padding: 10px;
   border-bottom: 1px solid gray;
 }
 .post-list td:not(:nth-of-type(2)) {
@@ -68,12 +69,12 @@ section h1 {
   display: inline-block;
 }
 #paging a.on {
-  border: 1px solid #0670b9;
-  color: #0670b9;
+  border: 1px solid rgba(118, 201, 65);
+  color: rgba(118, 201, 65);
 }
 #paging a.arrow {
   border: 1px solid #ccc;
 }
 #paging a:hover {
-  border: 1px solid #0670b9;
+  border: 1px solid rgba(118, 201, 65);
 }
