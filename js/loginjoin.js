@@ -38,3 +38,9 @@ $().ready(function () {
     });
   });
 });
+//리스트검색창결과없음
+$().ready(function () {
+  $("#searchalertStart").click(function () {
+    Swal.fire("검색 결과 없음", "다른 검색어를 입력하세요", "question");
+  });
+});
