@@ -1,7 +1,7 @@
 section {
   flex: 1;
   width: 1280px;
-  margin: 100px auto 0;
+  margin: 50px auto 0;
 }
 div.mainbox {
   width: 1280px;
@@ -52,6 +52,9 @@ section h1 {
 .post-list td {
   padding: 10px;
   border-bottom: 1px solid gray;
+}
+.post-list tbody tr:hover {
+  background-color: rgba(118, 201, 65, 0.1);
 }
 .post-list td:not(:nth-of-type(2)) {
   text-align: center;

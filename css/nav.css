@@ -72,9 +72,10 @@ header nav {
 #menu a:hover {
   font-weight: 900;
 }
-#menu a:hover:after {
+#menu a:hover:not(.home):after {
   transform: scaleX(1);
 }
+
 #logo {
   padding-top: 5px;
   width: 130px;

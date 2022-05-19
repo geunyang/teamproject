@@ -13,6 +13,7 @@
 - join, login 페이지 추가// 완료
 - join 페이지 input 창 크기 문제// 완료
 - 로고 색 맞춰서 요소 색상변경// 완료
-- 로고에 hover 제거
+- 로고에 hover 제거// 로고에 클래스 주고 not:nth-of-type제외처리
+- 회원가입,로그인하기 언더라인// a tag에 text-decoration 적용
 - 가로 스크롤 오류(info_list, recall_list, recall_list_detail)
 - NEW! 파일 병합
