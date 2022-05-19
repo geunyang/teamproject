@@ -15,5 +15,7 @@
 - 로고 색 맞춰서 요소 색상변경// 완료
 - 로고에 hover 제거// 로고에 클래스 주고 not:nth-of-type제외처리
 - 회원가입,로그인하기 언더라인// a tag에 text-decoration 적용
+- 팝업메세지// 완료
+- 버튼 호버// 완료
 - 가로 스크롤 오류(info_list, recall_list, recall_list_detail)
 - NEW! 파일 병합
