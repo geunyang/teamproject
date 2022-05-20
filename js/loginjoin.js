@@ -7,6 +7,8 @@ $().ready(function () {
       text: "SKIN SAVE의 가족이 되신 것을 환영합니다",
     });
   });
+  $("body").removeClass("swal2-height-auto");
+  console.log("body");
 });
 //로그인알림창
 $().ready(function () {

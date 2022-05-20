@@ -18,4 +18,6 @@
 - 팝업메세지// 완료
 - 버튼 호버// 완료
 - 가로 스크롤 오류(info_list, recall_list, recall_list_detail)
-- NEW! 파일 병합
+- NEW! 파일 병합// 완료
+- alert 실행시 footer오류// 완료
+- alert 실행시 화면 옆으로 흔들리는 오류
